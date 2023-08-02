@@ -37,7 +37,7 @@ public class Product implements Serializable {
 
 	private double price;
 
-	@Column(name = "nhanh_category_id", nullable=false)
+	@Column(name = "nhanh_category_id")
 	private String nhanhCategoryId;
 
 	@ManyToOne(fetch = FetchType.EAGER)
